@@ -1,0 +1,15 @@
+/* Contact.css */
+.contact-container {
+    background-color: #afd0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Light border */
+  }
+  
+  .contact-header {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }

@@ -1,0 +1,16 @@
+/* About.css */
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    border-radius: 8px;
+  }
+  

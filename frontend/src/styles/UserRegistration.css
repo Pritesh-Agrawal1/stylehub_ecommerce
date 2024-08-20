@@ -1,0 +1,56 @@
+/* src/styles/UserRegistration.css */
+
+/* Background image styling */
+.background-image {
+  background: url('/images/img2.webp') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed; /* Ensure background is fixed */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Transparent overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+/* Light theme for the form with transparency */
+.form-light {
+  background-color: rgba(248, 249, 250, 0.9); /* Light background with transparency */
+  color: #343a40; /* Dark text color for contrast */
+  border: 1px solid #ced4da; /* Light border color */
+  position: relative;
+  z-index: 2; /* Ensure the form is above the overlay */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-light .form-control {
+  background-color: #ffffff; /* Light background for form controls */
+  color: #495057; /* Dark text color */
+  border: 1px solid #ced4da; /* Light border for form controls */
+}
+
+.form-light .form-control::placeholder {
+  color: #6c757d; /* Lighter placeholder text */
+}
+
+button {
+  border-radius: 5px; /* Rounded corners for the button */
+  background-color: #007bff; /* Primary button color */
+  color: #ffffff; /* White text color on button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+  opacity: 0.9; /* Slight transparency on hover */
+}

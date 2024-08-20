@@ -1,0 +1,18 @@
+/* src/UserLogin.css */
+.bg-container {
+  background-image: url('/images/img2.webp'); /* Path to your background image */
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form-container {
+  max-width: 500px; /* Limits the maximum width of the form */
+  width: 100%; /* Ensures the form takes full width within the max-width */
+  padding: 2rem; /* Adds padding inside the form container */
+}

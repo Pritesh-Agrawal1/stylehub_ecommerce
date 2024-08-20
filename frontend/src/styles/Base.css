@@ -1,0 +1,20 @@
+/* Ensure that the container takes up at least the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  main {
+    flex: 1; /* This makes the main content area expand to fill available space */
+  }
+  
+  .footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+  
